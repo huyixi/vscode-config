@@ -1,0 +1,16 @@
+{
+		"p": {
+		"prefix": "p",
+		"body": [
+			"<p class=\"\">$1</p>"
+		],
+		"description": "Insert an HTML <p> element"
+	},
+		"div": {
+		"prefix": "div",
+		"body": [
+			"<div class=\"\">$1</div>"
+		],
+		"description": "Insert an HTML <div> element"
+	}
+}
