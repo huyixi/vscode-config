@@ -30,6 +30,54 @@
 		],
 		"description": "Export a module"
 	},
+	"vue": {
+		"prefix": "vue",
+		"body": [
+			"<script>",
+			"export default {",
+			"\tname: '$1',",
+			"}",
+			"</script>",
+			"",
+			"<template>",
+			"\t<div>\n\t\t\n\t</div>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"",
+			"</style>"
+		],
+		"description": "vue output to vue-template"
+	},
+	"vue-options-api-data": {
+		"scope": "vue",
+		"prefix": "vue-data",
+		"body": [
+			"data() {",
+			"\treturn {",
+			"\t\t$1",
+			"\t}",
+			"},"
+		],
+		"description": "Scaffold the data function of a Vue component"
+	},
+	"vue-computed-property": {
+		"scope": "vue",
+		"prefix": "vue-computed",
+		"body": [
+			"computed: {",
+			"\t$1: {",
+			"\t\tget() {",
+			"\t\t\treturn this.$2",
+			"\t\t},",
+			"\t\tset(value) {",
+			"\t\t\tthis.$3 = value",
+			"\t\t}",
+			"\t},",
+			"},"
+		],
+		"description": "Scaffold a computed property for a Vue component using the Options API"
+	},
 	"vue-script-setup": {
 		"scope": "vue",
 		"prefix": "<sc",
