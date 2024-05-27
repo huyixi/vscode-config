@@ -112,4 +112,28 @@
 			"})"
 		]
 	},
+	"Vue 3 TypeScript Component": {
+		"prefix": "vue3ts",
+		"body": [
+			"<script lang=\"ts\">",
+			"import { defineComponent } from 'vue';",
+			"",
+			"export default defineComponent({",
+			"  name: '$1',",
+			"  setup() {",
+			"    return {};",
+			"  }",
+			"});",
+			"</script>",
+			"",
+			"<template>",
+			"  <div>",
+			"  </div>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "Create a Vue 3 component with TypeScript"
+	}
 }
