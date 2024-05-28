@@ -115,15 +115,8 @@
 	"Vue 3 TypeScript Component": {
 		"prefix": "vue3ts",
 		"body": [
-			"<script lang=\"ts\">",
-			"import { defineComponent } from 'vue';",
+			"<script setup lang=\"ts\">",
 			"",
-			"export default defineComponent({",
-			"  name: '$1',",
-			"  setup() {",
-			"    return {};",
-			"  }",
-			"});",
 			"</script>",
 			"",
 			"<template>",
