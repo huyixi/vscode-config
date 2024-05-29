@@ -120,11 +120,11 @@
 			"</script>",
 			"",
 			"<template>",
-			"  <div>",
-			"  </div>",
+			"",
 			"</template>",
 			"",
 			"<style scoped>",
+			"",
 			"</style>"
 		],
 		"description": "Create a Vue 3 component with TypeScript"
