@@ -116,7 +116,7 @@
 		"prefix": "vue3ts",
 		"body": [
 			"<script setup lang=\"ts\">",
-			"",
+			"$1",
 			"</script>",
 			"",
 			"<template>",
